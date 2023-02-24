@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int height, weight, perimeter,aire;
+    height = 7;
+    weight = 5;
+    perimeter = 2*(height + weight);
+    printf("perimeter=%d inches" ,perimeter);
+    aire = weight*height;
+    printf("aire = %d square inche
